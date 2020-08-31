@@ -1,5 +1,4 @@
 function openList() {
-    console.log(event.srcElement.value);
     if (event.srcElement.value === "Rap") {
         rapSongs();
     } else if (event.srcElement.value === "HappyHits") {

@@ -47,3 +47,9 @@ div > span {
     color: white;
     font-size: 35px;
 }
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
