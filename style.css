@@ -1,11 +1,17 @@
-body,html{
+html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body{
     margin: 0;
     height: 100%;
-    overflow: hidden;
+    width: 100%;
 }
 header{
     background-image: url(assets/images/try.jpg);
     padding: 3%;
+    
 }
 h1{
     text-align: center;
@@ -18,7 +24,7 @@ h1{
 }
 #mainPage{
     background-image: url(assets/images/backGround.jpg);
-    height: 70%;
+    height: 100%;
     /* display: inline-flexbox; */
     width: 100%;
 }
@@ -34,15 +40,25 @@ button{
     float: left;
 }
 #videoFrame{
-    float: left;
-    margin-left: 20%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+
+}
+#videoFrame > iframe{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 50%;
+    height: 50%;
+    border: 0;
 }
 #listSongs{
     margin-left: 15px;
 }
 div > span {
     position: absolute;
-    top: 90%;
+    top: 95%;
     left: 39%;
     color: white;
     font-size: 35px;
