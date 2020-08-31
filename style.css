@@ -1,0 +1,49 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    background-image: url(assets/images/try.jpg);
+    padding: 3%;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 80px;
+    color: white;
+    text-decoration: underline wavy crimson;
+    
+}
+#mainPage{
+    background-image: url(assets/images/backGround.jpg);
+    height: 70%;
+    /* display: inline-flexbox; */
+    width: 100%;
+}
+#buttons{
+    float: left;
+}
+button{
+    padding: 15px;
+    margin-top: 10px;
+    width: 150px;
+}
+#listOfSongs{
+    float: left;
+}
+#videoFrame{
+    float: left;
+    margin-left: 20%;
+}
+#listSongs{
+    margin-left: 15px;
+}
+div > span {
+    position: absolute;
+    top: 90%;
+    left: 39%;
+    color: white;
+    font-size: 35px;
+}
